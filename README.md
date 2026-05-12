@@ -1,8 +1,10 @@
 # Easytime - FiveM Time and Weather
 
-![674x458](https://i.imgur.com/wLbjp3D.png)
+<img width="1247" height="646" alt="image" src="https://github.com/user-attachments/assets/463a075f-9b66-4cce-a07c-a143490d4437" />
 
-![674x458](https://i.imgur.com/wKThu2R.png)
+
+<img width="1248" height="645" alt="image" src="https://github.com/user-attachments/assets/ba8455ed-8cf7-44a7-a989-4d3a9c91c865" />
+
 
 ![](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png)
 
