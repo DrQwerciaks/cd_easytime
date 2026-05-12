@@ -44,12 +44,12 @@ async function generateClouds() {
 	const container_height = body.getBoundingClientRect().height;
 
 	container.innerHTML = "";
-	for (let i = 0; i < 17; i++) {
+	for (let i = 0; i < 25; i++) {
 		container.innerHTML +=
 			"<img src='images/weathertype/cloudy.svg' style='position:absolute; width:" +
 			(Math.floor(Math.random() * 128) + 10) +
 			"px; opacity:" +
-			Math.random() +
+			(Math.random() * 0.5 + 0.5) +
 			"; top:" +
 			Math.floor(Math.random() * container_height - 10) +
 			"px; left:" +
@@ -67,12 +67,12 @@ async function generateStars() {
 
 	container.innerHTML = "";
 
-	for (let i = 0; i < 33; i++) {
+	for (let i = 0; i < 50; i++) {
 		container.innerHTML +=
 			"<img src='images/weathertype/stars.svg' style='position:absolute; width:" +
 			Math.floor(Math.random() * 12) +
 			"px; opacity:" +
-			Math.random() +
+			(Math.random() * 0.5 + 0.5) +
 			"; top:" +
 			Math.floor(Math.random() * container_height - 10) +
 			"px; left:" +
@@ -128,17 +128,17 @@ async function updateBackground(time) {
 		document.getElementById("easytime-sun").style.bottom = b + "%";
 
 		easytime_card_body.style.backgroundColor = "var(--easytime-daytime)";
-		document.getElementById("easytime-sun").style.display = "block";
-		document.getElementById("easytime-moon").style.display = "none";
+		document.getElementById("easytime-sun").style.opacity = "1";
+		document.getElementById("easytime-moon").style.opacity = "0";
 
-		document.getElementById("easytime-clouds").style.display = "block";
-		document.getElementById("easytime-stars").style.display = "none";
+		document.getElementById("easytime-clouds").style.opacity = "1";
+		document.getElementById("easytime-stars").style.opacity = "0";
 	} else if (time > 12 && time < 21) {
-		document.getElementById("easytime-sun").style.display = "block";
-		document.getElementById("easytime-moon").style.display = "none";
+		document.getElementById("easytime-sun").style.opacity = "1";
+		document.getElementById("easytime-moon").style.opacity = "0";
 
-		document.getElementById("easytime-clouds").style.display = "block";
-		document.getElementById("easytime-stars").style.display = "none";
+		document.getElementById("easytime-clouds").style.opacity = "1";
+		document.getElementById("easytime-stars").style.opacity = "0";
 
 		easytime_card_body.style.backgroundColor = "var(--easytime-daytime)";
 
@@ -151,11 +151,11 @@ async function updateBackground(time) {
 		document.getElementById("easytime-sun").style.left = l + "%";
 		document.getElementById("easytime-sun").style.bottom = b + "%";
 	} else if (time >= 21 && time <= 24) {
-		document.getElementById("easytime-sun").style.display = "none";
-		document.getElementById("easytime-moon").style.display = "block";
+		document.getElementById("easytime-sun").style.opacity = "0";
+		document.getElementById("easytime-moon").style.opacity = "1";
 
-		document.getElementById("easytime-clouds").style.display = "none";
-		document.getElementById("easytime-stars").style.display = "block";
+		document.getElementById("easytime-clouds").style.opacity = "0";
+		document.getElementById("easytime-stars").style.opacity = "1";
 
 		easytime_card_body.style.backgroundColor = "var(--easytime-nighttime)";
 
@@ -169,11 +169,11 @@ async function updateBackground(time) {
 		document.getElementById("easytime-moon").style.left = l + "%";
 		document.getElementById("easytime-moon").style.bottom = b + "%";
 	} else {
-		document.getElementById("easytime-sun").style.display = "none";
-		document.getElementById("easytime-moon").style.display = "block";
+		document.getElementById("easytime-sun").style.opacity = "0";
+		document.getElementById("easytime-moon").style.opacity = "1";
 
-		document.getElementById("easytime-clouds").style.display = "none";
-		document.getElementById("easytime-stars").style.display = "block";
+		document.getElementById("easytime-clouds").style.opacity = "0";
+		document.getElementById("easytime-stars").style.opacity = "1";
 
 		easytime_card_body.style.backgroundColor = "var(--easytime-nighttime)";
 
@@ -269,6 +269,29 @@ document
 		updateTimeDisplay();
 	});
 
+document.addEventListener("keydown", function (e) {
+	const card = document.getElementById("easytime-card");
+	if (card.style.display === "block" || card.classList.contains("slide-in-bottom")) {
+		const range = document.getElementById("easytime-range");
+		if (range.disabled) return;
+
+		const step = 1 / 60;
+		let currentValue = parseFloat(range.value);
+
+		if (e.key === "ArrowLeft") {
+			currentValue = Math.max(parseFloat(range.min), currentValue - step);
+			range.value = currentValue;
+			updateTimeDisplay();
+			e.preventDefault();
+		} else if (e.key === "ArrowRight") {
+			currentValue = Math.min(parseFloat(range.max), currentValue + step);
+			range.value = currentValue;
+			updateTimeDisplay();
+			e.preventDefault();
+		}
+	}
+});
+
 document.getElementById("easytime-24hr").addEventListener("click", function () {
 	settings.using24hr = !settings.using24hr;
 
@@ -279,10 +302,11 @@ document.getElementById("easytime-24hr").addEventListener("click", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-	document.querySelectorAll("[data-toggle='tooltip']").forEach((element) => {
+	document.querySelectorAll("[data-bs-toggle='tooltip']").forEach((element) => {
 		new bootstrap.Tooltip(element, { trigger: "hover" });
 	});
 	tsunamiSound = new Audio("sound/tsunami_siren.ogg");
+	tsunamiSound.volume = 0.8;
 
 	// Replacement for jQuery slideUp animation
 	document
@@ -309,9 +333,43 @@ window.addEventListener("message", function (event) {
 		document.getElementById("easytime-card").classList.add("slide-in-bottom");
 
 		values = event.data.values;
+		document.body.setAttribute('data-theme', values.uistyle || 1);
+
+		if (values.locales) {
+			document.getElementById("easytime-button-save").innerText = values.locales.ui_save || "Save Settings";
+			document.getElementById("easytime-button-change").innerText = values.locales.ui_change || "Change";
+			document.getElementById("easytime-button-close").innerText = values.locales.ui_close || "Close";
+			document.getElementById("easytime-freeze-label").innerText = values.locales.ui_freeze || "Freeze time";
+			document.getElementById("easytime-blackout-label").innerText = values.locales.ui_blackout || "Blackout";
+			document.getElementById("easytime-dynamic-label").innerText = values.locales.ui_dynamic || "Dynamic weather";
+			document.getElementById("easytime-instant-time-label").innerText = values.locales.ui_instant_time || "Instant time change";
+			document.getElementById("easytime-instant-weather-label").innerText = values.locales.ui_instant_weather || "Instant weather change";
+			document.getElementById("easytime-tsunami-label").innerText = values.locales.ui_tsunami || "Tsunami";
+			document.getElementById("easytime-realtime-label").innerText = values.locales.ui_realtime || "Use Realtime";
+			document.getElementById("easytime-realweather-label").innerText = values.locales.ui_realweather || "Use Realweather";
+			
+			let infoText = document.getElementById("easytime-info-text");
+			if (infoText && values.locales.tooltip_info) {
+				infoText.innerText = values.locales.tooltip_info;
+			}
+			
+			document.querySelectorAll("[data-tooltip-id]").forEach((element) => {
+				let key = element.getAttribute("data-tooltip-id");
+				if (values.locales["tooltip_" + key]) {
+					element.setAttribute("title", values.locales["tooltip_" + key]);
+					element.setAttribute("data-bs-original-title", values.locales["tooltip_" + key]);
+					
+					let tooltip = bootstrap.Tooltip.getInstance(element);
+					if (tooltip) {
+						tooltip.dispose();
+					}
+					new bootstrap.Tooltip(element, { trigger: "hover" });
+				}
+			});
+		}
 		// Hide new weather option if game build is less than 3258
 		if (Number(values.game_build) < 3258) {
-			document.getElementById("new-weather").style.display = "none";
+			document.getElementById("new-weather").style.opacity = "0";
 		}
 
 		weatherOnOpen = values.weather;
@@ -326,7 +384,7 @@ window.addEventListener("message", function (event) {
 	
 
 		if (values.original_weathermethod === "game") {
-			document.getElementById("realweather").style.display = "none";
+			document.getElementById("realweather").style.opacity = "0";
 		} else if(values.real_info){
 			document.getElementById("real-city").innerHTML =
 				values.real_info.city + ", " + values.real_info.country;
@@ -334,7 +392,7 @@ window.addEventListener("message", function (event) {
 				values.real_info.weather + ", " + values.real_info.weather_description;
 		}
 		if (values.original_timemethod === "game") {
-			document.getElementById("realtime").style.display = "none";
+			document.getElementById("realtime").style.opacity = "0";
 		} else if(values.real_info){
 			document.getElementById("real-city").innerHTML =
 				values.real_info.city + ", " + values.real_info.country;
@@ -351,7 +409,7 @@ window.addEventListener("message", function (event) {
 		).checked = true;
 
 		originalHours =
-			values.hours >= 1 && values.hours <= 7 ? values.hours + 24 : values.hours;
+			values.hours >= 0 && values.hours <= 7 ? values.hours + 24 : values.hours;
 
 		originalMinutes = values.mins;
 
@@ -378,7 +436,7 @@ window.addEventListener("message", function (event) {
 		toggleWeatherChanging(values.realweather);
 
 		this.document.getElementById("easytime-range").value =
-			values.hours >= 1 && values.hours <= 7
+			values.hours >= 0 && values.hours <= 7
 				? values.hours + 24 + values.mins / 60
 				: values.hours + values.mins / 60;
 
@@ -395,8 +453,10 @@ window.addEventListener("message", function (event) {
 		document.getElementById("easytime-card").offsetWidth;
 
 		// Clear all the tooltips in case they are staying on
-		document.querySelectorAll("[data-toggle='tooltip']").forEach((element) => {
-			bootstrap.Tooltip.getInstance(element).hide();
+		document.querySelectorAll("[data-bs-toggle='tooltip']").forEach((element) => {
+			if(bootstrap.Tooltip.getInstance(element)) {
+				bootstrap.Tooltip.getInstance(element).hide();
+			}
 		});
 	} else if (event.data.action == "playsound") {
 		playSound();

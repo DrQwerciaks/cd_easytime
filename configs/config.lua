@@ -19,7 +19,9 @@ Config.Framework = 'auto_detect' --[ 'auto_detect' / 'other' ]
 Config.Notification = 'auto_detect' --[ 'auto_detect' / 'other' ]
 --If you select 'auto_detect', only ESX, QBCore, Qbox, cd_notifications, okokNotify, ps-ui and ox_lib notifications will be detected. Use 'other' for custom notification resources.
 
-Config.Language = 'EN' --[ 'EN' / 'FR' / 'ES' ]
+Config.UIStyle = 1 -- [ 1 / 2 / 3 ] 1 = Codesign.pro, 2 = Graphite & Silver, 3 = BlueRose
+
+Config.Language = 'EN' --[ 'EN' / 'FR' / 'ES' / 'PL' ]
 --You can add your own locales to Locales.lua, but be sure to update the Config.Language to match it.
 
 Config.FrameworkTriggers = {

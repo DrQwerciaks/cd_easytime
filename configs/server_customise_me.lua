@@ -113,9 +113,18 @@ end
 -- ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝        ╚═════╝ ╚═════╝ ╚═╝     ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝ ╚══════╝
 
 
-RegisterCommand(Config.Command, function(source)
+RegisterCommand(Config.Command, function(source, args)
     local source = source
     if PermissionsCheck(source) then
+        if args and args[1] and args[2] then
+            local hours = tonumber(args[1])
+            local mins = tonumber(args[2])
+            if hours and mins then
+                SetTime(hours, mins)
+                Notification(source, 1, L('time_set')..hours..':'..mins)
+                return
+            end
+        end
         TriggerClientEvent('cd_easytime:OpenUI', source, self)
         print('Time:'.. self.hours..':'..self.mins .. ' Weather:' .. self.weather)
 
@@ -234,11 +243,11 @@ function Notification(source, notif_type, message)
 
         elseif Config.Notification == 'ox_lib' then
             if notif_type == 1 then
-                lib.notify({title = L('easytime'), description = message, type = 'success'})
+                exports.ox_lib:notify(source, {title = L('easytime'), description = message, type = 'success', duration = 5000})
             elseif notif_type == 2 then
-                lib.notify({title = L('easytime'), description = message, type = 'inform'})
+                exports.ox_lib:notify(source, {title = L('easytime'), description = message, type = 'inform', duration = 5000})
             elseif notif_type == 3 then
-                lib.notify({title = L('easytime'), description = message, type = 'error'})
+                exports.ox_lib:notify(source, {title = L('easytime'), description = message, type = 'error', duration = 5000})
             end
 
         elseif Config.Notification == 'chat' then
@@ -289,3 +298,11 @@ if Config.Debug then
     end)
 
 end
+
+CreateThread(function()
+    Wait(2000)
+    print('^2[cd_easytime]^0 Auto-detection complete.')
+    print('^2[cd_easytime]^0 Version: '..GetResourceMetadata(GetCurrentResourceName(), 'version', 0))
+    print('^2[cd_easytime]^0 Detected Framework: '..tostring(Config.Framework))
+    print('^2[cd_easytime]^0 Detected Notifications: '..tostring(Config.Notification))
+end)

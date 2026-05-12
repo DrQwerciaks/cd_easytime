@@ -13,6 +13,12 @@ RegisterNetEvent('cd_easytime:OpenUI', function(values)
     values.game_build = GetGameBuildNumber()
     values.original_timemethod = Config.Time.METHOD
     values.original_weathermethod = Config.Weather.METHOD
+    values.uistyle = Config.UIStyle
+    values.language = Config.Language
+    values.locales = Locales[Config.Language]
+    values.hours = GetClockHours()
+    values.mins = GetClockMinutes()
+    
     original_time = {hours = values.hours, mins = values.mins}
     SendNUIMessage({action = 'open', values = values})
 end)
