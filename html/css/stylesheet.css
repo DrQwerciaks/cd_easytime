@@ -205,6 +205,10 @@ input:checked + .form-check-label .wi {
 	margin-right: 0.5rem;
 }
 
+.easytime-weather-setting.form-check-input {
+	margin-right: 0.2rem;
+}
+
 .form-check-input:checked {
 	transform: scale(1.1);
 }
