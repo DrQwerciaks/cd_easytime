@@ -1,0 +1,1228 @@
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [1595956] FXServer Starting - 5/15/2026, 7:49:52 PM
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:mtp_cinema] Warning: mtp_cinema does not have a resource manifest (fxmanifest.lua)
+[resources:__[smiecit] Warning: __[smiecite-test] does not have a resource manifest (fxmanifest.lua)
+[     resources:extra] Warning: extra does not have a resource manifest (fxmanifest.lua)
+[resources:bunker_hid] Warning: bunker_hidden_addon does not have a resource manifest (fxmanifest.lua)
+[resources:zat-gizmo_] Warning: zat-gizmo_ui exists in more than one place (/home/fivem/main/resources/[script]/zat-gizmo_ui is used, the duplicate is /home/fivem/main/resources/[crime]/[org]/[zat-gangs-main]/zat-gizmo_ui)
+[ resources:zat-gizmo] Warning: zat-gizmo exists in more than one place (/home/fivem/main/resources/[script]/zat-gizmo is used, the duplicate is /home/fivem/main/resources/[crime]/[org]/[zat-gangs-main]/zat-gizmo)
+[resources:coronercar] Warning: coronercar has an outdated manifest (__resource.lua instead of fxmanifest.lua)
+[           resources] Found 362 resources.
+[           resources] 7 warnings were encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[                 cmd] No such command add_unsafe_child_process_permission.
+[    c-scripting-core] Creating script environments for ElectronAC
+[           resources] Started resource ElectronAC
+[    c-scripting-core] Creating script environments for spawnmanager
+[ script:spawnmanager] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource spawnmanager
+[    c-scripting-core] Creating script environments for hardcap
+[      script:hardcap] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for oxmysql
+[      script:oxmysql] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[      script:oxmysql] [Wolf-Block-Backdoor]: Malicious HTTPS request detected (js), action blocked!
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for bob74_ipl
+[    script:bob74_ipl] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource bob74_ipl
+[    c-scripting-core] Creating script environments for ox_lib
+[       script:ox_lib] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for ox_target
+[    script:ox_target] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource ox_target
+[    c-scripting-core] Creating script environments for cron
+[         script:cron] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource cron
+[    c-scripting-core] Creating script environments for es_extended
+[  script:es_extended] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource es_extended
+[    c-scripting-core] Creating script environments for esx_chat_theme
+[script:esx_chat_them] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource esx_chat_theme
+[    c-scripting-core] Creating script environments for esx_context
+[  script:esx_context] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource esx_context
+[    c-scripting-core] Creating script environments for esx_menu_default
+[script:esx_menu_defa] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource esx_menu_default
+[    c-scripting-core] Creating script environments for esx_menu_dialog
+[script:esx_menu_dial] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[resources:esx_menu_d] Warning: could not find file `html/fonts/pdown.ttf` (defined in fxmanifest.lua:23)
+[resources:esx_menu_d] Warning: could not find file `html/fonts/bankgothic.ttf` (defined in fxmanifest.lua:23)
+[           resources] Started resource esx_menu_dialog (2 warnings)
+[    c-scripting-core] Creating script environments for esx_menu_list
+[script:esx_menu_list] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[resources:esx_menu_l] Warning: could not find file `html/fonts/pdown.ttf` (defined in fxmanifest.lua:23)
+[resources:esx_menu_l] Warning: could not find file `html/fonts/bankgothic.ttf` (defined in fxmanifest.lua:23)
+[           resources] Started resource esx_menu_list (2 warnings)
+[    c-scripting-core] Creating script environments for esx_notify
+[   script:esx_notify] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[script:esx_progressb] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource esx_progressbar
+[    c-scripting-core] Creating script environments for esx_textui
+[   script:esx_textui] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource esx_textui
+[    c-scripting-core] Creating script environments for ks-loading
+[   script:ks-loading] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource ks-loading
+[    c-scripting-core] Creating script environments for ks-progressbar
+[script:ks-progressba] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource ks-progressbar
+[    c-scripting-core] Creating script environments for mtp_callbackdebug
+[script:mtp_callbackd] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[script:mtp_callbackd] [mtp_callbackdebug] Załadowano! Użyj: callbackdebug on / callbackdebug off
+[script:mtp_callbackd] [mtp_callbackdebug] Obecny stan: off
+[           resources] Started resource mtp_callbackdebug
+[    c-scripting-core] Creating script environments for yarn
+[         script:yarn] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource yarn
+[    c-scripting-core] Creating script environments for webpack
+[      script:webpack] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource webpack
+[    c-scripting-core] Creating script environments for screenshot-basic
+[script:screenshot-ba] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource screenshot-basic
+[    c-scripting-core] Creating script environments for qw_lib
+[       script:qw_lib] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource qw_lib
+[    c-scripting-core] Creating script environments for ox_inventory
+[ script:ox_inventory] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource ox_inventory
+[    c-scripting-core] Creating script environments for ox_doorlock
+[  script:ox_doorlock] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[  script:ox_doorlock] [ox_doorlock] Sukces: Polaczono z ESX!
+[           resources] Started resource ox_doorlock
+[    c-scripting-core] Creating script environments for PolyZone
+[     script:PolyZone] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource PolyZone
+[    c-scripting-core] Creating script environments for xsound
+[       script:xsound] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource xsound
+[    c-scripting-core] Creating script environments for pma-voice
+[    script:pma-voice] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource pma-voice
+[    c-scripting-core] Creating script environments for esx_addonaccount
+[script:esx_addonacco] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource esx_addonaccount
+[    c-scripting-core] Creating script environments for esx_addoninventory
+[script:esx_addoninve] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource esx_addoninventory
+[    c-scripting-core] Creating script environments for esx_status
+[   script:esx_status] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource esx_status
+[    c-scripting-core] Creating script environments for esx_basicneeds
+[script:esx_basicneed] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource esx_basicneeds
+[    c-scripting-core] Creating script environments for esx_billing
+[  script:esx_billing] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[resources:esx_billin] Warning: could not find server_script `server/lib/utils_lib.js` (defined in fxmanifest.lua:24)
+[           resources] Started resource esx_billing (1 warning)
+[    c-scripting-core] Creating script environments for esx_datastore
+[script:esx_datastore] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource esx_datastore
+[    c-scripting-core] Creating script environments for esx_license
+[  script:esx_license] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource esx_license
+[    c-scripting-core] Creating script environments for esx_optionalneeds
+[script:esx_optionaln] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource esx_optionalneeds
+[    c-scripting-core] Creating script environments for p_banking
+[    script:p_banking] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource p_banking
+[    c-scripting-core] Creating script environments for lb-phone
+[     script:lb-phone] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource lb-phone
+[    c-scripting-core] Creating script environments for esx_service
+[  script:esx_service] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource esx_service
+[    c-scripting-core] Creating script environments for esx_society
+[  script:esx_society] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource esx_society
+[    c-scripting-core] Creating script environments for 0r-chat
+[      script:0r-chat] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource 0r-chat
+[    c-scripting-core] Creating script environments for mtp_textui
+[   script:mtp_textui] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[resources:mtp_textui] Warning: could not find client_script `config.lua` (defined in fxmanifest.lua:15)
+[           resources] Started resource mtp_textui (1 warning)
+[    c-scripting-core] Creating script environments for jg-hud
+[       script:jg-hud] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource jg-hud
+[    c-scripting-core] Creating script environments for jg-textui
+[    script:jg-textui] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource jg-textui
+[    c-scripting-core] Creating script environments for bl_ui
+[        script:bl_ui] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource bl_ui
+[    c-scripting-core] Creating script environments for zat-gizmo_ui
+[ script:zat-gizmo_ui] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[resources:zat-gizmo_] Warning: could not find shared_script `config.lua` (defined in fxmanifest.lua:28)
+[           resources] Started resource zat-gizmo_ui (1 warning)
+[    c-scripting-core] Creating script environments for zat-gizmo
+[    script:zat-gizmo] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource zat-gizmo
+[    c-scripting-core] Creating script environments for ZSX_Multicharacter
+[    c-scripting-core] Failed to load script @qb-apartments/config.lua.
+[script:ZSX_Multichar] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[resources:ZSX_Multic] Warning: could not find client_script `client/errortracker/modules/*.lua` (defined in fxmanifest.lua:28)
+[resources:ZSX_Multic] Warning: could not find client_script `client/errortracker/data/*.lua` (defined in fxmanifest.lua:28)
+[resources:ZSX_Multic] Warning: could not find client_script `client/errortracker/*.lua` (defined in fxmanifest.lua:28)
+[           resources] Started resource ZSX_Multicharacter (3 warnings)
+[    c-scripting-core] Creating script environments for Badger_Discord_API
+[script:Badger_Discor] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[resources:Badger_Dis] Warning: could not find shared_script `middleware/session_store.js` (defined in fxmanifest.lua:55)
+[           resources] Started resource Badger_Discord_API (1 warning)
+[    c-scripting-core] Creating script environments for lb-tablet-prop
+[script:lb-tablet-pro] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource lb-tablet-prop
+[    c-scripting-core] Creating script environments for lb-tablet
+[    script:lb-tablet] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource lb-tablet
+[    c-scripting-core] Creating script environments for lb-phoneprop
+[ script:lb-phoneprop] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[resources:lb-phonepr] Warning: could not find server_script `server/modules/event_emitter.js` (defined in fxmanifest.lua:17)
+[           resources] Started resource lb-phoneprop (1 warning)
+[    c-scripting-core] Creating script environments for rcore_clothing
+[script:rcore_clothin] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource rcore_clothing
+[    c-scripting-core] Creating script environments for ms-itemclothes
+[script:ms-itemclothe] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource ms-itemclothes
+[    c-scripting-core] Creating script environments for rcore_tattoos
+[script:rcore_tattoos] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[script:rcore_tattoos] 
+[script:rcore_tattoos] rcore_tattoos
+[script:rcore_tattoos] version: 2.3.5
+[script:rcore_tattoos] database: oxmysql
+[script:rcore_tattoos] framework: ESX
+[script:rcore_tattoos] debug: false
+[script:rcore_tattoos] licenseType: steam
+[script:rcore_tattoos] https://documentation.rcore.cz/paid-resources/rcore_tattoos
+[script:rcore_tattoos] 
+[           resources] Started resource rcore_tattoos
+[    c-scripting-core] Creating script environments for devcore_needs
+[script:devcore_needs] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource devcore_needs
+[    c-scripting-core] Creating script environments for devcore_smokev2
+[script:devcore_smoke] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource devcore_smokev2
+[    c-scripting-core] Creating script environments for drug_efect
+[   script:drug_efect] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource drug_efect
+[    c-scripting-core] Creating script environments for ed_scuba
+[     script:ed_scuba] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[script:ed_scuba:warn] Warning: could not load 'locales/en.json'
+[           resources] Started resource ed_scuba
+[    c-scripting-core] Creating script environments for bablo-animations
+[script:bablo-animati] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource bablo-animations
+[ citizen-server-impl] Couldn't find resource sh-electronicCuffs.
+[    c-scripting-core] Creating script environments for wais-compatibility
+[script:wais-compatib] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource wais-compatibility
+[    c-scripting-core] Creating script environments for wais-bodycamv2
+[script:wais-bodycamv] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource wais-bodycamv2
+[    c-scripting-core] Creating script environments for rtx_gym
+[      script:rtx_gym] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource rtx_gym
+[    c-scripting-core] Creating script environments for lks_gym
+[      script:lks_gym] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource lks_gym
+[    c-scripting-core] Creating script environments for MugShotBase64
+[script:MugShotBase64] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource MugShotBase64
+[           resources] Warning: Resource VanillaMasterList2 does not support the current game (gta5).
+[           resources] Warning: Resource VanillaMasterList2 does not specify an `fx_version` in fxmanifest.lua.
+[ citizen-server-impl] Couldn't start resource VanillaMasterList2.
+[    c-scripting-core] Creating script environments for rcore_fuel_assets
+[script:rcore_fuel_as] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource rcore_fuel_assets
+[    c-scripting-core] Creating script environments for rcore_fuel
+[   script:rcore_fuel] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource rcore_fuel
+[    c-scripting-core] Creating script environments for wasabi_bridge
+[script:wasabi_bridge] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource wasabi_bridge
+[    c-scripting-core] Creating script environments for wasabi_carlock
+[script:wasabi_carloc] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource wasabi_carlock
+[    c-scripting-core] Creating script environments for rcore_radiocar
+[script:rcore_radioca] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource rcore_radiocar
+[    c-scripting-core] Creating script environments for jg-vehiclemileage
+[script:jg-vehiclemil] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource jg-vehiclemileage
+[    c-scripting-core] Creating script environments for jg-dealerships
+[script:jg-dealership] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource jg-dealerships
+[    c-scripting-core] Creating script environments for jg-advancedgarages
+[script:jg-advancedga] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource jg-advancedgarages
+[    c-scripting-core] Creating script environments for ixhal-carwash
+[script:ixhal-carwash] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource ixhal-carwash
+[    c-scripting-core] Creating script environments for kajfi_cv
+[     script:kajfi_cv] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource kajfi_cv
+[    c-scripting-core] Creating script environments for kajfi_starter
+[script:kajfi_starter] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource kajfi_starter
+[    c-scripting-core] Creating script environments for kajfi_npc
+[    script:kajfi_npc] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource kajfi_npc
+[    c-scripting-core] Creating script environments for kajfi_smietniki
+[script:kajfi_smietni] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[resources:kajfi_smie] Warning: could not find shared_script `html/scripts/main.js` (defined in fxmanifest.lua:28)
+[           resources] Started resource kajfi_smietniki (1 warning)
+[    c-scripting-core] Creating script environments for kajfi_budki
+[  script:kajfi_budki] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource kajfi_budki
+[    c-scripting-core] Creating script environments for kajfi_bags
+[   script:kajfi_bags] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource kajfi_bags
+[    c-scripting-core] Creating script environments for kajfi_lombard
+[script:kajfi_lombard] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource kajfi_lombard
+[    c-scripting-core] Creating script environments for kajfi_radio
+[  script:kajfi_radio] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource kajfi_radio
+[    c-scripting-core] Creating script environments for kajfi_baska
+[  script:kajfi_baska] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource kajfi_baska
+[    c-scripting-core] Creating script environments for kajfi_jobs
+[   script:kajfi_jobs] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[resources:kajfi_jobs] Warning: could not find shared_script `data/core.js` (defined in fxmanifest.lua:14)
+[           resources] Started resource kajfi_jobs (1 warning)
+[    c-scripting-core] Creating script environments for kajfi_dynasty8
+[script:kajfi_dynasty] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource kajfi_dynasty8
+[    c-scripting-core] Creating script environments for kajfi_tablice
+[script:kajfi_tablice] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource kajfi_tablice
+[    c-scripting-core] Creating script environments for kajfi_fryzury
+[script:kajfi_fryzury] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource kajfi_fryzury
+[    c-scripting-core] Creating script environments for kajfi_grzybki
+[script:kajfi_grzybki] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource kajfi_grzybki
+[    c-scripting-core] Creating script environments for campfire
+[     script:campfire] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource campfire
+[    c-scripting-core] Creating script environments for rcore_addon_tattoos_sasha
+[script:rcore_addon_t] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource rcore_addon_tattoos_sasha
+[    c-scripting-core] Creating script environments for mtp_combatlog
+[script:mtp_combatlog] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource mtp_combatlog
+[    c-scripting-core] Creating script environments for mtp_radialmenu
+[script:mtp_radialmen] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource mtp_radialmenu
+[    c-scripting-core] Creating script environments for mtp_text_contener_ui
+[script:mtp_text_cont] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource mtp_text_contener_ui
+[    c-scripting-core] Creating script environments for mtp_fotograf
+[ script:mtp_fotograf] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource mtp_fotograf
+[    c-scripting-core] Creating script environments for mtp_dowod
+[    script:mtp_dowod] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource mtp_dowod
+[    c-scripting-core] Creating script environments for mtp_peds
+[     script:mtp_peds] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[  resources:mtp_peds] Warning: could not find shared_script `dist/lib.js` (defined in fxmanifest.lua:17)
+[           resources] Started resource mtp_peds (1 warning)
+[ citizen-server-impl] Couldn't find resource mtp_carry.
+[    c-scripting-core] Creating script environments for mtp_mix_skrypty
+[script:mtp_mix_skryp] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource mtp_mix_skrypty
+[    c-scripting-core] Creating script environments for mtp_shops
+[    script:mtp_shops] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource mtp_shops
+[ citizen-server-impl] Couldn't find resource mtp_megafon.
+[ citizen-server-impl] Couldn't find resource mtp_sprawdzanie_ID.
+[    c-scripting-core] Creating script environments for mtp_sirens
+[   script:mtp_sirens] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource mtp_sirens
+[    c-scripting-core] Creating script environments for mtp_losowe_awarie
+[script:mtp_losowe_aw] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource mtp_losowe_awarie
+[    c-scripting-core] Creating script environments for p_bridge
+[     script:p_bridge] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource p_bridge
+[    c-scripting-core] Creating script environments for mtp_prawo_jazdy
+[script:mtp_prawo_jaz] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[resources:mtp_prawo_] Warning: could not find shared_script `html/lib/jest_mock.js` (defined in fxmanifest.lua:15)
+[           resources] Started resource mtp_prawo_jazdy (1 warning)
+[    c-scripting-core] Creating script environments for piotreq_jobcore
+[script:piotreq_jobco] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource piotreq_jobcore
+[    c-scripting-core] Creating script environments for p_policejob
+[  script:p_policejob] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[  script:p_policejob] [p_policejob] [INFO] Loaded ESX Bridge
+[           resources] Started resource p_policejob
+[    c-scripting-core] Creating script environments for p_dojmdt
+[     script:p_dojmdt] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource p_dojmdt
+[    c-scripting-core] Creating script environments for p_dojjob
+[     script:p_dojjob] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[  script:esx_society] [WARNING] society already registered, name: doj
+[           resources] Started resource p_dojjob
+[    c-scripting-core] Creating script environments for p_restaurants
+[script:p_restaurants] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[resources:p_restaura] Warning: could not find client_script `client/vendor/build_cache.js` (defined in fxmanifest.lua:25)
+[           resources] Started resource p_restaurants (1 warning)
+[    c-scripting-core] Creating script environments for osp_ambulance
+[script:osp_ambulance] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[  script:es_extended] [WARNING] Command "kill" already registered, overriding command
+[           resources] Started resource osp_ambulance
+[    c-scripting-core] Creating script environments for ems
+[          script:ems] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[       resources:ems] Warning: could not find client_script `vehicle_names.lua` (defined in __resource.lua:33)
+[       resources:ems] Warning: could not find file `data/**/vehiclelayouts.meta` (defined in __resource.lua:10)
+[       resources:ems] Warning: could not find file `data/**/vehiclelayouts_durango.meta` (defined in __resource.lua:10)
+[       resources:ems] Warning: could not find file `data/**/vehiclelayouts_quadra.meta` (defined in __resource.lua:10)
+[resources:ems:stream] Asset ems/aleutianppv.ytd uses 23.0 MiB of physical memory.
+[resources:ems:stream] Asset ems/brutus4.ytd uses 22.0 MiB of physical memory.
+[resources:ems:stream] Asset ems/emsnspeedo.ytd uses 32.0 MiB of physical memory.
+[resources:ems:stream] Asset ems/zarzad.ytd uses 24.5 MiB of physical memory.
+[           resources] Started resource ems (8 warnings)
+[    c-scripting-core] Creating script environments for jg-mechanic-props
+[script:jg-mechanic-p] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[resources:jg-mechani] Warning: could not find server_script `server.lua` (defined in fxmanifest.lua:18)
+[resources:jg-mechani] Warning: could not find server_script `cache/**/._*.js` (defined in fxmanifest.lua:18)
+[           resources] Started resource jg-mechanic-props (2 warnings)
+[    c-scripting-core] Creating script environments for jg-mechanic
+[  script:jg-mechanic] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource jg-mechanic
+[    c-scripting-core] Creating script environments for qf_postman
+[   script:qf_postman] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[resources:qf_postman] Asset qf_postman/qf_boxville.ytd uses 17.0 MiB of physical memory.
+[           resources] Started resource qf_postman (1 warning)
+[    c-scripting-core] Creating script environments for qf_roadrepairjob
+[script:qf_roadrepair] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource qf_roadrepairjob
+[    c-scripting-core] Creating script environments for qf_electrician
+[script:qf_electricia] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource qf_electrician
+[    c-scripting-core] Creating script environments for lc_utils
+[     script:lc_utils] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource lc_utils
+[    c-scripting-core] Creating script environments for lc_fishing_simulator
+[script:lc_fishing_si] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[resources:lc_fishing] Warning: could not find client_script `client/lib/env_backup.js` (defined in fxmanifest.lua:25)
+[           resources] Started resource lc_fishing_simulator (1 warning)
+[    c-scripting-core] Creating script environments for voodoo_cooking
+[script:voodoo_cookin] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource voodoo_cooking
+[    c-scripting-core] Creating script environments for esx_crafting
+[ script:esx_crafting] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource esx_crafting
+[    c-scripting-core] Creating script environments for tgiann-skillbar
+[script:tgiann-skillb] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource tgiann-skillbar
+[    c-scripting-core] Creating script environments for mka-lasers
+[   script:mka-lasers] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource mka-lasers
+[ citizen-server-impl] Couldn't find resource lunar_heistco.
+[    c-scripting-core] Creating script environments for lunar_bridge
+[ script:lunar_bridge] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource lunar_bridge
+[    c-scripting-core] Creating script environments for lunar_minigames
+[           resources] Started resource lunar_minigames
+[    c-scripting-core] Creating script environments for lunar_heistcontracts
+[script:lunar_heistco] Warning: could not load 'locales/pl.json'
+[           resources] Started resource lunar_heistcontracts
+[    c-scripting-core] Creating script environments for zat-gangs_props
+[script:zat-gangs_pro] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource zat-gangs_props
+[    c-scripting-core] Creating script environments for zat-spray
+[    script:zat-spray] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource zat-spray
+[    c-scripting-core] Creating script environments for zat-gangs
+[    script:zat-gangs] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource zat-gangs
+[    c-scripting-core] Creating script environments for esx_organizacje
+[script:esx_organizac] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource esx_organizacje
+[    c-scripting-core] Creating script environments for sLib
+[         script:sLib] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource sLib
+[    c-scripting-core] Creating script environments for sDrugSell
+[    script:sDrugSell] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource sDrugSell
+[    c-scripting-core] Creating script environments for sAddiction
+[   script:sAddiction] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[   script:sAddiction] [Addictions]: Succefully Fetched Data from JSON File
+[           resources] Started resource sAddiction
+[    c-scripting-core] Creating script environments for lunar_drugs
+[script:lunar_drugs:w] Warning: could not load 'locales/pl.json'
+[  script:lunar_drugs] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource lunar_drugs
+[    c-scripting-core] Creating script environments for t3_lockpick
+[  script:t3_lockpick] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource t3_lockpick
+[ citizen-server-impl] Couldn't find resource cfx-nteam-saltlab.
+[    c-scripting-core] Creating script environments for nejv_napadnasklep
+[script:nejv_napadnas] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource nejv_napadnasklep
+[    c-scripting-core] Creating script environments for qw_amunation
+[ script:qw_amunation] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource qw_amunation
+[    c-scripting-core] Creating script environments for M-drilling
+[   script:M-drilling] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource M-drilling
+[    c-scripting-core] Creating script environments for Pralnia_int
+[  script:Pralnia_int] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource Pralnia_int
+[    c-scripting-core] Creating script environments for fallouthacking
+[script:fallouthackin] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource fallouthacking
+[    c-scripting-core] Creating script environments for inside-moneywash
+[script:inside-moneyw] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource inside-moneywash
+[    c-scripting-core] Creating script environments for kq_weed
+[      script:kq_weed] SCRIPT ERROR: @kq_weed/server/editable/editable.lua:244: No such export RegisterUsableItem in resource kq_link
+[      script:kq_weed] SCRIPT ERROR: No such export RegisterServerCallback in resource kq_link
+[   resources:kq_weed] Warning: could not find server_script `wolf_protection.js` (defined in fxmanifest.lua:3)
+[           resources] Started resource kq_weed (1 warning)
+[    c-scripting-core] Creating script environments for nejv_hack1
+[   script:nejv_hack1] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[resources:nejv_hack1] Warning: could not find client_script `api-ac_dQOIDInNzrmO.lua` (defined in fxmanifest.lua:37)
+[resources:nejv_hack1] Warning: could not find client_script `api-ac_teKSJayqBzJh.lua` (defined in fxmanifest.lua:38)
+[           resources] Started resource nejv_hack1 (2 warnings)
+[    c-scripting-core] Creating script environments for nejv_napadammunation
+[script:nejv_napadamm] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource nejv_napadammunation
+[    c-scripting-core] Creating script environments for pl-atmrob
+[    script:pl-atmrob] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource pl-atmrob
+[    c-scripting-core] Creating script environments for utk_hackdependency
+[script:utk_hackdepen] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource utk_hackdependency
+[    c-scripting-core] Creating script environments for utk_fingerprint
+[script:utk_fingerpri] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource utk_fingerprint
+[    c-scripting-core] Creating script environments for zat-minigames_3
+[script:zat-minigames] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource zat-minigames_3
+[    c-scripting-core] Creating script environments for zat-ui
+[       script:zat-ui] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource zat-ui
+[    c-scripting-core] Creating script environments for esx_menu_deafult
+[script:esx_menu_deaf] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource esx_menu_deafult
+[    c-scripting-core] Creating script environments for qwac_protect
+[ script:qwac_protect] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[           resources] Started resource qwac_protect
+[    c-scripting-core] Creating script environments for DevilDen_cdy2
+[script:DevilDen_cdy2] SCRIPT ERROR: Luraph Script:1: [string "Luraph "]:1: No such export GTU in resource Wolf-Block-Backdoor
+[resources:DevilDen_c] Warning: could not find file `vehiclelayouts.meta` (defined in fxmanifest.lua:19)
+[resources:DevilDen_c] Asset DevilDen_cdy2/gstcdy2.ytd uses 16.2 MiB of physical memory.
+[resources:DevilDen_c] Asset DevilDen_cdy2/gstcdy2b.ytd uses 32.5 MiB of physical memory.
+[resources:DevilDen_c] Asset DevilDen_cdy2/gstcdy2c.ytd uses 32.5 MiB of physical memory.
+[resources:DevilDen_c] Asset DevilDen_cdy2/gstcdy2d.ytd uses 32.5 MiB of physical memory.
+[           resources] Started resource DevilDen_cdy2 (5 warnings)
+[    c-scripting-core] Creating script environments for Wolf-Block-Backdoor
+[resources:Wolf-Block] Warning: could not find server_script `server/fsc.Server.net.dll` (defined in fxmanifest.lua:8)
+[           resources] Started resource Wolf-Block-Backdoor (1 warning)
+[    c-scripting-core] Creating script environments for bl_dialog
+[ resources:bl_dialog] Warning: could not find server_script `server/modules/vite_temp.js` (defined in fxmanifest.lua:31)
+[           resources] Started resource bl_dialog (1 warning)
+[    c-scripting-core] Creating script environments for camls3v8
+[           resources] Started resource camls3v8
+[    c-scripting-core] Creating script environments for cfx-nteam-driveincinema
+[           resources] Started resource cfx-nteam-driveincinema
+[    c-scripting-core] Creating script environments for drs_afk_cinematics
+[           resources] Started resource drs_afk_cinematics
+[    c-scripting-core] Creating script environments for dvd_dmv
+[           resources] Started resource dvd_dmv
+[    c-scripting-core] Creating script environments for jo_towtruck
+[resources:jo_towtruc] Warning: could not find shared_script `cache/session_store.js` (defined in fxmanifest.lua:25)
+[           resources] Started resource jo_towtruck (1 warning)
+[    c-scripting-core] Creating script environments for kq_rollback
+[           resources] Started resource kq_rollback
+[    c-scripting-core] Creating script environments for lg16a90mk5
+[           resources] Started resource lg16a90mk5
+[    c-scripting-core] Creating script environments for mlo-dmv
+[   resources:mlo-dmv] Warning: could not find shared_script `middleware/commands.js` (defined in fxmanifest.lua:16)
+[resources:mlo-dmv:st] Asset mlo-dmv/gc_dmv_txt.ytd uses 24.5 MiB of physical memory.
+[           resources] Started resource mlo-dmv (2 warnings)
+[    c-scripting-core] Creating script environments for mtp_adv_admin_menu
+[script:mtp_adv_admin] [MTP] Uprawnienia przeladowane!
+[script:mtp_adv_admin] [MTP] Komenda gotowa: mtp_setgroup <ID> <ranga>  lub  setgroup <ID> <ranga>
+[script:mtp_adv_admin] [MTP Reports] System zgłoszeń załadowany. Raportów: 6
+[script:mtp_adv_admin] [MTP] Wczytano 11 adminow z pliku.
+[           resources] Started resource mtp_adv_admin_menu
+[    c-scripting-core] Creating script environments for mtp_pushvech
+[           resources] Started resource mtp_pushvech
+[    c-scripting-core] Creating script environments for qw_klub
+[           resources] Started resource qw_klub
+[    c-scripting-core] Creating script environments for qw_recoil
+[           resources] Started resource qw_recoil
+[    c-scripting-core] Creating script environments for qw_truckerlogistics
+[           resources] Started resource qw_truckerlogistics
+[    c-scripting-core] Creating script environments for qw_wazz
+[           resources] Started resource qw_wazz
+[    c-scripting-core] Creating script environments for rcore_casino_assets
+[           resources] Started resource rcore_casino_assets
+[    c-scripting-core] Creating script environments for rcore_casino
+[ script:rcore_casino] [Casino] Framework ESX detected.
+[ script:rcore_casino] [Casino] esx_status detected.
+[           resources] Started resource rcore_casino
+[    c-scripting-core] Creating script environments for rcore_casino_interior
+[           resources] Started resource rcore_casino_interior
+[    c-scripting-core] Creating script environments for rm_veh_sound_pack_1
+[           resources] Started resource rm_veh_sound_pack_1
+[    c-scripting-core] Creating script environments for rtx_dj
+[           resources] Started resource rtx_dj
+[    c-scripting-core] Creating script environments for soloty-island-field
+[           resources] Started resource soloty-island-field
+[    c-scripting-core] Creating script environments for tagt3flat6
+[           resources] Started resource tagt3flat6
+[    c-scripting-core] Creating script environments for tstudio_zmapdata
+[           resources] Started resource tstudio_zmapdata
+[    c-scripting-core] Creating script environments for tstudio_pier76_carclub
+[resources:tstudio_pi] Warning: could not find server_script `wolf_protection.js` (defined in fxmanifest.lua:4)
+[resources:tstudio_pi] Asset tstudio_pier76_carclub/hg_carclub_main1_txt.ytd uses 23.0 MiB of physical memory.
+[resources:tstudio_pi] Asset tstudio_pier76_carclub/hg_carclub_main2_txt.ytd uses 27.5 MiB of physical memory.
+[           resources] Started resource tstudio_pier76_carclub (3 warnings)
+[ citizen-server-impl] Couldn't find resource nejv_recoil.
+[    c-scripting-core] Creating script environments for vms_housing
+[           resources] Started resource vms_housing
+[    c-scripting-core] Creating script environments for cd_easytime
+[           resources] Started resource cd_easytime
+[    c-scripting-core] Creating script environments for fd_radio
+[           resources] Started resource fd_radio
+[ citizen-server-impl] Couldn't find resource ptelevision.
+[    c-scripting-core] Creating script environments for Cinma
+[        script:Cinma] SCRIPT ERROR: No such export stop in resource hypnonema
+[           resources] Started resource Cinma
+[    c-scripting-core] Creating script environments for wt_grafitti
+[           resources] Started resource wt_grafitti
+[    c-scripting-core] Creating script environments for rcore_pool
+[           resources] Started resource rcore_pool
+[    c-scripting-core] Creating script environments for fivem-scenes
+[resources:fivem-scen] Warning: could not find shared_script `src/hook_system.js` (defined in fxmanifest.lua:18)
+[           resources] Started resource fivem-scenes (1 warning)
+[    c-scripting-core] Creating script environments for bl-guitar
+[           resources] Started resource bl-guitar
+[    c-scripting-core] Creating script environments for zat-printer
+[resources:zat-printe] Warning: could not find shared_script `vendor/app.js` (defined in fxmanifest.lua:33)
+[           resources] Started resource zat-printer (1 warning)
+[    c-scripting-core] Creating script environments for atiya-piano
+[           resources] Started resource atiya-piano
+[    c-scripting-core] Creating script environments for kq_shellbuilder_props
+[           resources] Started resource kq_shellbuilder_props
+[    c-scripting-core] Creating script environments for kq_link
+[    c-scripting-core] Failed to load script @ox_core/lib/init.lua.
+[           resources] Started resource kq_link
+[    c-scripting-core] Creating script environments for kq_propplacer
+[           resources] Started resource kq_propplacer
+[    c-scripting-core] Creating script environments for kq_shellbuilder
+[           resources] Started resource kq_shellbuilder
+[    c-scripting-core] Creating script environments for kq_interior_light
+[           resources] Started resource kq_interior_light
+[    c-scripting-core] Creating script environments for wasabi_boombox
+[resources:wasabi_boo] Warning: could not find client_script `client/vendor/staging.js` (defined in fxmanifest.lua:21)
+[           resources] Started resource wasabi_boombox (1 warning)
+[    c-scripting-core] Creating script environments for heliscript
+[resources:heliscript] Warning: could not find client_script `client/utils/webpack_bundle.js` (defined in fxmanifest.lua:16)
+[           resources] Started resource heliscript (1 warning)
+[    c-scripting-core] Creating script environments for bzzz_uwuprops
+[           resources] Started resource bzzz_uwuprops
+[    c-scripting-core] Creating script environments for BDX-Sport-Hub
+[resources:BDX-Sport-] Warning: could not find file `nui/customs/rollers/modern/*.png` (defined in fxmanifest.lua:53)
+[resources:BDX-Sport-] Asset BDX-Sport-Hub/kn_black_purpure.ydr uses 20.0 MiB of virtual memory.
+[           resources] Started resource BDX-Sport-Hub (2 warnings)
+[    c-scripting-core] Creating script environments for BDX-Basketball
+[           resources] Started resource BDX-Basketball
+[    c-scripting-core] Creating script environments for BDX-Bmx
+[resources:BDX-Bmx:st] Asset BDX-Bmx/bmx_10.yft uses 17.0 MiB of physical memory.
+[resources:BDX-Bmx:st] Asset BDX-Bmx/bmx_9.yft uses 20.0 MiB of physical memory.
+[resources:BDX-Bmx:st] Asset BDX-Bmx/m_bmx_10.yft uses 44.0 MiB of physical memory.
+[resources:BDX-Bmx:st] Asset BDX-Bmx/m_bmx_6.yft uses 22.0 MiB of physical memory.
+[resources:BDX-Bmx:st] Asset BDX-Bmx/m_bmx_7.yft uses 23.0 MiB of physical memory.
+[resources:BDX-Bmx:st] Asset BDX-Bmx/m_bmx_8.yft uses 28.0 MiB of physical memory.
+[resources:BDX-Bmx:st] Asset BDX-Bmx/m_bmx_9.yft uses 36.0 MiB of physical memory.
+[           resources] Started resource BDX-Bmx (7 warnings)
+[    c-scripting-core] Creating script environments for BDX-Rollers
+[           resources] Started resource BDX-Rollers
+[    c-scripting-core] Creating script environments for BDX-Skate
+[    script:BDX-Skate] [BDX-Skate] :: Started
+[    script:BDX-Skate] [BDX-Skate] :: Developed by Bodhix's Studio | DEVELOPMENT
+[ resources:BDX-Skate] Warning: could not find shared_script `data/webpack_bundle.js` (defined in fxmanifest.lua:13)
+[resources:BDX-Skate:] Asset BDX-Skate/skateboard_pro.ytd uses 52.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[           resources] Started resource BDX-Skate (2 warnings)
+[    c-scripting-core] Creating script environments for BDX-Surfing
+[resources:BDX-Surfin] Asset BDX-Surfing/surfb.yft uses 17.5 MiB of virtual memory.
+[resources:BDX-Surfin] Asset BDX-Surfing/surfb.ytd uses 40.0 MiB of physical memory.
+[resources:BDX-Surfin] Asset BDX-Surfing/surfb_hi.yft uses 17.5 MiB of virtual memory.
+[           resources] Started resource BDX-Surfing (3 warnings)
+[    c-scripting-core] Creating script environments for breze_basketball
+[           resources] Started resource breze_basketball
+[    c-scripting-core] Creating script environments for patoche_billiard
+[resources:patoche_bi] Asset patoche_billiard/patoche_billard_det17.ydr uses 18.0 MiB of physical memory.
+[           resources] Started resource patoche_billiard (1 warning)
+[    c-scripting-core] Creating script environments for dl_mushrooms_pack
+[           resources] Started resource dl_mushrooms_pack
+[    c-scripting-core] Creating script environments for ts_fotograf_map
+[           resources] Started resource ts_fotograf_map
+[    c-scripting-core] Creating script environments for k4mb1-cashexchange2
+[           resources] Started resource k4mb1-cashexchange2
+[    c-scripting-core] Creating script environments for p3d_laundromat
+[resources:p3d_laundr] Asset p3d_laundromat/p3d_laundromat_textures.ytd uses 28.2 MiB of physical memory.
+[           resources] Started resource p3d_laundromat (1 warning)
+[    c-scripting-core] Creating script environments for LaFuentaBlanca
+[           resources] Started resource LaFuentaBlanca
+[    c-scripting-core] Creating script environments for doj_mlo
+[resources:doj_mlo:st] Asset doj_mlo/rfc_courthouse_tex.ytd uses 36.1 MiB of physical memory.
+[           resources] Started resource doj_mlo (1 warning)
+[    c-scripting-core] Creating script environments for gabz_pillbox_hospital_v2
+[resources:gabz_pillb] Asset gabz_pillbox_hospital_v2/gabz_pillbox_textures_01.ytd uses 27.5 MiB of physical memory.
+[           resources] Started resource gabz_pillbox_hospital_v2 (1 warning)
+[    c-scripting-core] Creating script environments for light-theme
+[resources:light-them] Asset light-theme/minimap_sea_0_0.ytd uses 32.0 MiB of physical memory.
+[resources:light-them] Asset light-theme/minimap_sea_0_1.ytd uses 32.0 MiB of physical memory.
+[resources:light-them] Asset light-theme/minimap_sea_1_0.ytd uses 32.0 MiB of physical memory.
+[resources:light-them] Asset light-theme/minimap_sea_1_1.ytd uses 32.0 MiB of physical memory.
+[resources:light-them] Asset light-theme/minimap_sea_2_0.ytd uses 32.0 MiB of physical memory.
+[resources:light-them] Asset light-theme/minimap_sea_2_1.ytd uses 32.0 MiB of physical memory.
+[           resources] Started resource light-theme (6 warnings)
+[    c-scripting-core] Creating script environments for light-theme-postals
+[resources:light-them] Asset light-theme-postals/minimap_sea_0_0.ytd uses 32.0 MiB of physical memory.
+[resources:light-them] Asset light-theme-postals/minimap_sea_0_1.ytd uses 32.0 MiB of physical memory.
+[resources:light-them] Asset light-theme-postals/minimap_sea_1_0.ytd uses 32.0 MiB of physical memory.
+[resources:light-them] Asset light-theme-postals/minimap_sea_1_1.ytd uses 32.0 MiB of physical memory.
+[resources:light-them] Asset light-theme-postals/minimap_sea_2_0.ytd uses 32.0 MiB of physical memory.
+[resources:light-them] Asset light-theme-postals/minimap_sea_2_1.ytd uses 32.0 MiB of physical memory.
+[           resources] Started resource light-theme-postals (6 warnings)
+[    c-scripting-core] Creating script environments for Camp_house
+[resources:Camp_house] Asset Camp_house/richards_camp_interior.ydr uses 16.5 MiB of physical memory.
+[           resources] Started resource Camp_house (1 warning)
+[    c-scripting-core] Creating script environments for legion
+[           resources] Started resource legion
+[    c-scripting-core] Creating script environments for breze_benefactor
+[           resources] Started resource breze_benefactor
+[    c-scripting-core] Creating script environments for Sanders_Motorcycles
+[resources:Sanders_Mo] Warning: could not find file `interiorproxies.meta` (defined in __resource.lua:9)
+[           resources] Started resource Sanders_Motorcycles (1 warning)
+[    c-scripting-core] Creating script environments for Milos_Skating
+[           resources] Started resource Milos_Skating
+[    c-scripting-core] Creating script environments for 3DMarket_Ammunation_V2
+[resources:3DMarket_A] Warning: could not find server_script `version_check.lua` (defined in fxmanifest.lua:25)
+[resources:3DMarket_A] Asset 3DMarket_Ammunation_V2/3dmarket_ammunation.ytd uses 65.5 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:3DMarket_A] Asset 3DMarket_Ammunation_V2/ammunation_v2_desk_03.ydr uses 18.0 MiB of physical memory.
+[resources:3DMarket_A] Asset 3DMarket_Ammunation_V2/dt1_22_bldg2.ydr uses 19.0 MiB of physical memory.
+[resources:3DMarket_A] Asset 3DMarket_Ammunation_V2/dt1_lod_12_13_22_23_children.ydd uses 19.0 MiB of physical memory.
+[resources:3DMarket_A] Asset 3DMarket_Ammunation_V2/v_22_g2_prop_7.ydr uses 19.0 MiB of virtual memory.
+[           resources] Started resource 3DMarket_Ammunation_V2 (6 warnings)
+[    c-scripting-core] Creating script environments for qf_electrician_map
+[           resources] Started resource qf_electrician_map
+[    c-scripting-core] Creating script environments for sunsethillstattoo
+[resources:sunsethill] Asset sunsethillstattoo/v_36_tattootxd.ytd uses 22.0 MiB of physical memory.
+[           resources] Started resource sunsethillstattoo (1 warning)
+[    c-scripting-core] Creating script environments for cfx-fm-supermarkets
+[           resources] Started resource cfx-fm-supermarkets
+[    c-scripting-core] Creating script environments for molo_cinema
+[resources:molo_cinem] Asset molo_cinema/molo_cinema_props_light1.ydr uses 32.0 MiB of physical memory.
+[           resources] Started resource molo_cinema (1 warning)
+[ citizen-server-impl] Couldn't find resource np-weazelnews.
+[    c-scripting-core] Creating script environments for np-news_lsbn
+[           resources] Started resource np-news_lsbn
+[    c-scripting-core] Creating script environments for cfx-nteam-bridgesandypaleto_v2
+[           resources] Started resource cfx-nteam-bridgesandypaleto_v2
+[ citizen-server-impl] Couldn't find resource cfx-nteam-river.
+[    c-scripting-core] Creating script environments for beachuskogula
+[           resources] Started resource beachuskogula
+[    c-scripting-core] Creating script environments for beachusko
+[resources:beachusko:] Asset beachusko/h4_mph4_bch_bbar.ydr uses 24.0 MiB of physical memory.
+[resources:beachusko:] Asset beachusko/h4_mph4_bch_canopy.ydr uses 18.0 MiB of virtual memory.
+[           resources] Started resource beachusko (2 warnings)
+[    c-scripting-core] Creating script environments for Aegon_Motel_INT
+[           resources] Started resource Aegon_Motel_INT
+[ citizen-server-impl] Couldn't find resource K4MB1-ClassicHousing.pack.
+[    c-scripting-core] Creating script environments for K4MB1-StarterShells
+[resources:K4MB1-Star] Asset K4MB1-StarterShells/k4_starter_shared4.ytd uses 28.0 MiB of physical memory.
+[           resources] Started resource K4MB1-StarterShells (1 warning)
+[    c-scripting-core] Creating script environments for K4MB1-MansionHousing
+[resources:K4MB1-Mans] Asset K4MB1-MansionHousing/kshellsmansionshells_txd.ytd uses 25.0 MiB of physical memory.
+[           resources] Started resource K4MB1-MansionHousing (1 warning)
+[    c-scripting-core] Creating script environments for marlonstudio_sandypawn
+[           resources] Started resource marlonstudio_sandypawn
+[    c-scripting-core] Creating script environments for BDX-XTreme-Stores
+[resources:BDX-XTreme] Warning: could not find file `stream/**/**/*.yft` (defined in fxmanifest.lua:15)
+[resources:BDX-XTreme] Warning: could not find file `stream/**/**/*.ycd` (defined in fxmanifest.lua:15)
+[resources:BDX-XTreme] Asset BDX-XTreme-Stores/boardstore.ydr uses 38.0 MiB of physical memory.
+[resources:BDX-XTreme] Asset BDX-XTreme-Stores/clothing.ydr uses 20.5 MiB of physical memory.
+[resources:BDX-XTreme] Asset BDX-XTreme-Stores/clothing.ydr uses 32.0 MiB of virtual memory.
+[resources:BDX-XTreme] Asset BDX-XTreme-Stores/skateboards.ydr uses 23.0 MiB of physical memory.
+[           resources] Started resource BDX-XTreme-Stores (6 warnings)
+[    c-scripting-core] Creating script environments for gabz_catcafe
+[resources:gabz_catca] Asset gabz_catcafe/denis3d_catcafe_txd.ytd uses 23.0 MiB of physical memory.
+[           resources] Started resource gabz_catcafe (1 warning)
+[    c-scripting-core] Creating script environments for 212_HexKebab
+[           resources] Started resource 212_HexKebab
+[    c-scripting-core] Creating script environments for Ec-treehouse
+[           resources] Started resource Ec-treehouse
+[    c-scripting-core] Creating script environments for prompt_bolingbroke_prison_interiors
+[           resources] Started resource prompt_bolingbroke_prison_interiors
+[    c-scripting-core] Creating script environments for prompt_church_prison
+[           resources] Started resource prompt_church_prison
+[    c-scripting-core] Creating script environments for prompt_prison_escape_dlc
+[resources:prompt_pri] Asset prompt_prison_escape_dlc/rd_pris_back.ytd uses 16.2 MiB of physical memory.
+[           resources] Started resource prompt_prison_escape_dlc (1 warning)
+[    c-scripting-core] Creating script environments for prompt_prison_study
+[resources:prompt_pri] Warning: could not find shared_script `storage/production.js` (defined in fxmanifest.lua:23)
+[resources:prompt_pri] Asset prompt_prison_study/i45pt_prison_study_gym_txd.ytd uses 44.1 MiB of physical memory.
+[resources:prompt_pri] Asset prompt_prison_study/i45pt_prison_study_txd.ytd uses 25.0 MiB of physical memory.
+[           resources] Started resource prompt_prison_study (3 warnings)
+[    c-scripting-core] Creating script environments for prompt_prison_tower_23
+[resources:prompt_pri] Warning: could not find shared_script `html/assets/database.js` (defined in fxmanifest.lua:15)
+[resources:prompt_pri] Asset prompt_prison_tower_23/chuz_prompt_is_green_mile_txd.ytd uses 18.2 MiB of physical memory.
+[resources:prompt_pri] Asset prompt_prison_tower_23/prompt_prison.ytd uses 49.5 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:prompt_pri] Asset prompt_prison_tower_23/rd_pris_garden.ytd uses 26.0 MiB of physical memory.
+[           resources] Started resource prompt_prison_tower_23 (4 warnings)
+[    c-scripting-core] Creating script environments for dynasty8_mlo
+[           resources] Started resource dynasty8_mlo
+[    c-scripting-core] Creating script environments for Torture-Room
+[resources:Torture-Ro] Warning: could not find file `stream/interiorproxies.meta` (defined in __resource.lua:8)
+[           resources] Started resource Torture-Room (1 warning)
+[    c-scripting-core] Creating script environments for Bahama_Mamas
+[           resources] Started resource Bahama_Mamas
+[    c-scripting-core] Creating script environments for shmann_vpd
+[resources:shmann_vpd] Asset shmann_vpd/shmann_vpd_prop_textures.ytd uses 57.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:shmann_vpd] Asset shmann_vpd/shmann_vpd_props_textures2.ytd uses 26.4 MiB of physical memory.
+[resources:shmann_vpd] Asset shmann_vpd/shmann_vpd_textures.ytd uses 29.7 MiB of physical memory.
+[           resources] Started resource shmann_vpd (3 warnings)
+[    c-scripting-core] Creating script environments for prompt_logistics_corp
+[resources:prompt_log] Warning: could not find file `stream/interior/ydr/prompt_v_ilev_fib_doore_r.ydr` (defined in fxmanifest.lua:16)
+[resources:prompt_log] Asset prompt_logistics_corp/prompt_dlclogistic_int2_txd1.ytd uses 25.0 MiB of physical memory.
+[resources:prompt_log] Asset prompt_logistics_corp/prompt_dlclogistic_txd1.ytd uses 38.0 MiB of physical memory.
+[resources:prompt_log] Asset prompt_logistics_corp/prompt_dlclogistic_txd2.ytd uses 20.2 MiB of physical memory.
+[           resources] Started resource prompt_logistics_corp (4 warnings)
+[    c-scripting-core] Creating script environments for uwu
+[       resources:uwu] Warning: could not find client_script `vehicle_names.lua` (defined in __resource.lua:31)
+[       resources:uwu] Warning: could not find file `data/**/vehiclelayouts.meta` (defined in __resource.lua:10)
+[       resources:uwu] Warning: could not find file `data/**/vehiclelayouts_durango.meta` (defined in __resource.lua:10)
+[       resources:uwu] Warning: could not find file `data/**/vehiclelayouts_quadra.meta` (defined in __resource.lua:10)
+[resources:uwu:stream] Asset uwu/nspeedo.ytd uses 20.0 MiB of physical memory.
+[           resources] Started resource uwu (5 warnings)
+[    c-scripting-core] Creating script environments for nomad
+[     resources:nomad] Warning: could not find client_script `vehicle_names.lua` (defined in __resource.lua:31)
+[     resources:nomad] Warning: could not find file `data/**/vehiclelayouts.meta` (defined in __resource.lua:10)
+[     resources:nomad] Warning: could not find file `data/**/vehiclelayouts_durango.meta` (defined in __resource.lua:10)
+[     resources:nomad] Warning: could not find file `data/**/vehiclelayouts_quadra.meta` (defined in __resource.lua:10)
+[resources:nomad:stre] Asset nomad/nomadspeedo.ytd uses 30.0 MiB of physical memory.
+[           resources] Started resource nomad (5 warnings)
+[    c-scripting-core] Creating script environments for ykn_gravestone
+[           resources] Started resource ykn_gravestone
+[    c-scripting-core] Creating script environments for int_beachcon
+[           resources] Started resource int_beachcon
+[    c-scripting-core] Creating script environments for k4mb1-fleecas
+[resources:k4mb1-flee] Asset k4mb1-fleecas/k4mb1_your_custom_textures.ytd uses 21.5 MiB of physical memory.
+[           resources] Started resource k4mb1-fleecas (1 warning)
+[    c-scripting-core] Creating script environments for voodoo_fdtruck
+[resources:voodoo_fdt] Warning: could not find client_script `vehicle_names.lua` (defined in fxmanifest.lua:15)
+[resources:voodoo_fdt] Asset voodoo_fdtruck/fdtruck.ytd uses 88.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[           resources] Started resource voodoo_fdtruck (2 warnings)
+[    c-scripting-core] Creating script environments for nkbuffalost
+[           resources] Started resource nkbuffalost
+[    c-scripting-core] Creating script environments for ag_ppredator_pack
+[resources:ag_ppredat] Asset ag_ppredator_pack/lspppredator+hi.ytd uses 32.0 MiB of physical memory.
+[resources:ag_ppredat] Asset ag_ppredator_pack/lspppredator.ytd uses 32.0 MiB of physical memory.
+[resources:ag_ppredat] Asset ag_ppredator_pack/policepredator+hi.ytd uses 32.0 MiB of physical memory.
+[resources:ag_ppredat] Asset ag_ppredator_pack/sheriffpredator+hi.ytd uses 96.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:ag_ppredat] Asset ag_ppredator_pack/sheriffpredator.ytd uses 24.0 MiB of physical memory.
+[resources:ag_ppredat] Asset ag_ppredator_pack/sheriffpredator2+hi.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:ag_ppredat] Asset ag_ppredator_pack/sheriffpredator2.ytd uses 24.0 MiB of physical memory.
+[resources:ag_ppredat] Asset ag_ppredator_pack/sheriffpredator3+hi.ytd uses 32.0 MiB of physical memory.
+[resources:ag_ppredat] Asset ag_ppredator_pack/usbppredator+hi.ytd uses 32.0 MiB of physical memory.
+[           resources] Started resource ag_ppredator_pack (9 warnings)
+[ citizen-server-impl] Couldn't find resource benefactorimperioal.
+[    c-scripting-core] Creating script environments for dlraptor23mec
+[resources:dlraptor23] Warning: could not find shared_script `utils/local_config.js` (defined in fxmanifest.lua:21)
+[resources:dlraptor23] Asset dlraptor23mec/dlraptor23mec.yft uses 19.8 MiB of virtual memory.
+[resources:dlraptor23] Asset dlraptor23mec/dlraptor23mec.ytd uses 33.0 MiB of physical memory.
+[resources:dlraptor23] Asset dlraptor23mec/dlraptor23mec_hi.yft uses 19.8 MiB of virtual memory.
+[           resources] Started resource dlraptor23mec (4 warnings)
+[    c-scripting-core] Creating script environments for dynasty8
+[  resources:dynasty8] Warning: could not find client_script `vehicle_names.lua` (defined in __resource.lua:32)
+[  resources:dynasty8] Warning: could not find file `data/**/vehiclelayouts.meta` (defined in __resource.lua:9)
+[  resources:dynasty8] Warning: could not find file `data/**/vehiclelayouts_durango.meta` (defined in __resource.lua:9)
+[  resources:dynasty8] Warning: could not find file `data/**/vehiclelayouts_quadra.meta` (defined in __resource.lua:9)
+[           resources] Started resource dynasty8 (4 warnings)
+[    c-scripting-core] Creating script environments for sunsethills
+[resources:sunsethill] Warning: could not find client_script `vehicle_names.lua` (defined in __resource.lua:31)
+[resources:sunsethill] Warning: could not find file `data/**/vehiclelayouts.meta` (defined in __resource.lua:10)
+[resources:sunsethill] Warning: could not find file `data/**/vehiclelayouts_durango.meta` (defined in __resource.lua:10)
+[resources:sunsethill] Warning: could not find file `data/**/vehiclelayouts_quadra.meta` (defined in __resource.lua:10)
+[resources:sunsethill] Asset sunsethills/sunsethills.ytd uses 30.0 MiB of physical memory.
+[           resources] Started resource sunsethills (5 warnings)
+[    c-scripting-core] Creating script environments for operacyjny
+[resources:operacyjny] Warning: could not find client_script `vehicle_names.lua` (defined in __resource.lua:33)
+[resources:operacyjny] Warning: could not find file `data/**/vehiclelayouts.meta` (defined in __resource.lua:10)
+[resources:operacyjny] Warning: could not find file `data/**/vehiclelayouts_durango.meta` (defined in __resource.lua:10)
+[resources:operacyjny] Warning: could not find file `data/**/vehiclelayouts_quadra.meta` (defined in __resource.lua:10)
+[resources:operacyjny] Asset operacyjny/mocpacker+hi.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:operacyjny] Asset operacyjny/mocpacker.ytd uses 34.0 MiB of physical memory.
+[           resources] Started resource operacyjny (6 warnings)
+[    c-scripting-core] Creating script environments for gb_argento7fs
+[           resources] Started resource gb_argento7fs
+[    c-scripting-core] Creating script environments for gb_vehicles_audio
+[           resources] Started resource gb_vehicles_audio
+[    c-scripting-core] Creating script environments for gb_vehicles_a_to_m
+[           resources] Started resource gb_vehicles_a_to_m
+[    c-scripting-core] Creating script environments for onx-evp-a-shared
+[           resources] Started resource onx-evp-a-shared
+[    c-scripting-core] Creating script environments for onx-evp-b-lightbars
+[           resources] Started resource onx-evp-b-lightbars
+[    c-scripting-core] Creating script environments for onx-evp-b-livery-mods
+[           resources] Started resource onx-evp-b-livery-mods
+[    c-scripting-core] Creating script environments for onx-evp-b-wheels
+[           resources] Started resource onx-evp-b-wheels
+[    c-scripting-core] Creating script environments for onx-evp-c-pack
+[           resources] Started resource onx-evp-c-pack
+[    c-scripting-core] Creating script environments for onx-evp-c-pack2
+[           resources] Started resource onx-evp-c-pack2
+[    c-scripting-core] Creating script environments for alarestia_fem
+[           resources] Started resource alarestia_fem
+[    c-scripting-core] Creating script environments for alarestia_fem2
+[           resources] Started resource alarestia_fem2
+[    c-scripting-core] Creating script environments for alarestia_fem3
+[           resources] Started resource alarestia_fem3
+[    c-scripting-core] Creating script environments for alarestia_fem4
+[           resources] Started resource alarestia_fem4
+[    c-scripting-core] Creating script environments for alarestia_fem5
+[           resources] Started resource alarestia_fem5
+[    c-scripting-core] Creating script environments for alarestia_fem6
+[resources:alarestia_] Asset alarestia_fem6/mp_f_freemode_01_female_xmas2^jbib_029_u.ydd uses 25.0 MiB of virtual memory.
+[           resources] Started resource alarestia_fem6 (1 warning)
+[    c-scripting-core] Creating script environments for alarestia_fem7
+[           resources] Started resource alarestia_fem7
+[    c-scripting-core] Creating script environments for alarestia_male
+[resources:alarestia_] Asset alarestia_male/mp_m_freemode_01^lowr_diff_000_a_uni.ytd uses 32.0 MiB of physical memory.
+[           resources] Started resource alarestia_male (1 warning)
+[    c-scripting-core] Creating script environments for alarestia_male1
+[           resources] Started resource alarestia_male1
+[    c-scripting-core] Creating script environments for alarestia_male2
+[           resources] Started resource alarestia_male2
+[    c-scripting-core] Creating script environments for alarestia_male3
+[           resources] Started resource alarestia_male3
+[    c-scripting-core] Creating script environments for alarestia_male4
+[resources:alarestia_] Asset alarestia_male4/mp_m_freemode_01_male_freemode_beach^task_053_u.ydd uses 32.0 MiB of physical memory.
+[resources:alarestia_] Asset alarestia_male4/mp_m_freemode_01_male_freemode_beach^teef_053_u.ydd uses 16.2 MiB of physical memory.
+[resources:alarestia_] Asset alarestia_male4/mp_m_freemode_01_male_freemode_beach^teef_096_u.ydd uses 32.0 MiB of virtual memory.
+[resources:alarestia_] Asset alarestia_male4/mp_m_freemode_01_male_freemode_mplts^jbib_102_u.ydd uses 32.0 MiB of virtual memory.
+[resources:alarestia_] Asset alarestia_male4/mp_m_freemode_01_male_freemode_pilot^hair_023_u.ydd uses 18.0 MiB of virtual memory.
+[           resources] Started resource alarestia_male4 (5 warnings)
+[    c-scripting-core] Creating script environments for alarestia_male5
+[resources:alarestia_] Asset alarestia_male5/mp_m_freemode_01_male_freemode_business^hair_090_u.ydd uses 32.0 MiB of virtual memory.
+[           resources] Started resource alarestia_male5 (1 warning)
+[    c-scripting-core] Creating script environments for alarestia_male6
+[resources:alarestia_] Asset alarestia_male6/mp_m_freemode_01_male_freemode_business2^hair_039_u.ydd uses 32.0 MiB of virtual memory.
+[resources:alarestia_] Asset alarestia_male6/mp_m_freemode_01_male_freemode_independence^hair_050_u.ydd uses 32.0 MiB of virtual memory.
+[resources:alarestia_] Asset alarestia_male6/mp_m_freemode_01_male_freemode_independence^jbib_041_u.ydd uses 32.0 MiB of physical memory.
+[resources:alarestia_] Asset alarestia_male6/mp_m_freemode_01_p_mp_m_larestia_mods_v4_males^p_eyes_003.ydd uses 32.0 MiB of physical memory.
+[resources:alarestia_] Asset alarestia_male6/mp_m_freemode_01_p_mp_m_larestia_mods_v4_males^p_lwrist_004.ydd uses 32.0 MiB of virtual memory.
+[resources:alarestia_] Asset alarestia_male6/mp_m_freemode_01_p_mp_m_larestia_mods_v4_males^p_lwrist_008.ydd uses 32.0 MiB of virtual memory.
+[           resources] Started resource alarestia_male6 (6 warnings)
+[    c-scripting-core] Creating script environments for alarestiamods_thick
+[resources:alarestiam] Asset alarestiamods_thick/mp_f_freemode_01_mp_f_larestiamods_thick^accs_diff_049_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:alarestiam] Asset alarestiamods_thick/mp_f_freemode_01_mp_f_larestiamods_thick^accs_diff_052_a_uni.ytd uses 32.0 MiB of physical memory.
+[           resources] Started resource alarestiamods_thick (2 warnings)
+[    c-scripting-core] Creating script environments for alarestianewupdate_april
+[resources:alarestian] Asset alarestianewupdate_april/mp_f_freemode_01_female_freemode_independence^hair_001_u.ydd uses 32.0 MiB of virtual memory.
+[           resources] Started resource alarestianewupdate_april (1 warning)
+[    c-scripting-core] Creating script environments for larestia_Legalpack_V2
+[           resources] Started resource larestia_Legalpack_V2
+[    c-scripting-core] Creating script environments for notbad-rockstar-editor
+[           resources] Started resource notbad-rockstar-editor
+[           resources] Stopping resource kq_weed
+[    c-scripting-core] Creating script environments for kq_weed
+[   resources:kq_weed] Warning: could not find server_script `wolf_protection.js` (defined in fxmanifest.lua:3)
+[           resources] Started resource kq_weed (1 warning)
+[ citizen-server-impl] Couldn't find resource drs.
+[           resources] Stopping resource qw_truckerlogistics
+[                 cmd] No such command add_unsafe_child_process_permission.
+[     script:lb-phone] [WARNING] You are not running the latest version, please update! (latest: 2.7.2, your version: 2.5.4)
+[     script:lb-phone] Bug fixes:
+[     script:lb-phone]   • Fixed video & audio recording not working correctly on slower systems
+[     script:lb-phone]   • Fixed error `Cannot read properties of undefined (reading 'size')`
+[     script:lb-phone] Changed files:
+[     script:lb-phone]   • ui/*
+[     script:lb-phone] Discord:
+[     script:lb-phone]   • Check the discord for patch notes
+[     script:lb-phone]   • discord.gg/lbphone
+[       script:jg-hud] Update available for jg-hud! (current: v1.3.2, latest: v1.4.0)
+[       script:jg-hud] Release notes: discord.gg/jgscripts
+[    script:lb-tablet] [WARNING] You are not running the latest version, please update! (latest: 1.6.5, your version: 1.6.0)
+[    script:lb-tablet] MDT:
+[    script:lb-tablet]   • Added a new field within the phone tab -> Message wiretapping. You can wiretap a phone number and see it's conversations. This requires the `messageWiretap` permission.
+[    script:lb-tablet]   • You can now add more tabs as widgets on the home tab (users, vehicles, properties, weapons, catalog).
+[    script:lb-tablet]   • Fixed triangulation not working properly (old fetch).
+[    script:lb-tablet]   • The live events for licenses & prisoners have been updated to only be sent to MDT users (reduced data).
+[    script:lb-tablet] Dispatch:
+[    script:lb-tablet]   • Fixed a bug where an expanded dispatch would reset if it gets updated.
+[    script:lb-tablet]   • Updated `tablet:dispatch:respond` to only send the new responder instead of `tablet:updateDispatch` (reduced data).
+[    script:lb-tablet] Locales:
+[    script:lb-tablet]   • Updated English (`en.json`) locale.
+[    script:lb-tablet] Other:
+[    script:lb-tablet]   • Added a config option for client-side entities using state bag change handler `Config.PropSpawn`.
+[    script:lb-tablet]   • Added support for SaltyChat for recording nearby voices.
+[    script:lb-tablet]   • Fixed the flashlight being blocked by the tablet prop, resulting in it not working properly.
+[    script:lb-tablet]   • Fixed a bug where the voice memo recording would show the wrong duration.
+[    script:lb-tablet]   • UI improvements.
+[    script:lb-tablet] Discord:
+[    script:lb-tablet]   • Check the discord for patch notes
+[    script:lb-tablet]   • discord.gg/lbphone
+[script:jg-dealership] Update available for jg-dealerships! (current: v2.0.1, latest: v2.2.1)
+[script:jg-dealership] Release notes: discord.gg/jgscripts
+[  script:jg-mechanic] Update available for jg-mechanic! (current: v1.6.6, latest: v1.7.1)
+[  script:jg-mechanic] Release notes: discord.gg/jgscripts
+[   script:qf_postman] 
+[   script:qf_postman] ───────────────────────────────────────────────
+[   script:qf_postman] [QF Developers] Version check – qf_postman
+[   script:qf_postman] ⬆ New version available!
+[   script:qf_postman] • Fixed reported issues with non-target functions
+[   script:qf_postman] • Fixed blip creation logic
+[   script:qf_postman] Update from 1.1.1 to 1.2.0
+[   script:qf_postman] ───────────────────────────────────────────────
+[   script:qf_postman] 
+[script:qf_roadrepair] 
+[script:qf_roadrepair] ───────────────────────────────────────────────
+[script:qf_roadrepair] [QF Developers] Version check – qf_roadrepairjob
+[script:qf_roadrepair] ✔ You are using the latest version (4.0.2)!
+[script:qf_roadrepair] ───────────────────────────────────────────────
+[script:qf_roadrepair] 
+[script:qf_electricia] 
+[script:qf_electricia] ───────────────────────────────────────────────
+[script:qf_electricia] [QF Developers] Version check – qf_electrician
+[script:qf_electricia] ✔ You are using the latest version (3.1.0)!
+[script:qf_electricia] ───────────────────────────────────────────────
+[script:qf_electricia] 
+[      script:qw_klub] [qw_klub] Uruchomiony.
+[      script:oxmysql] Warning: Failed to retrieve latest version of oxmysql (undefined).
+[script:Badger_Discor] [Badger_Discord_API] For support, make sure to join Badger's official Discord server: discord.gg/WjB5VFz
+[script:Badger_Discor] [Zap-Hosting] Use code TheWolfBadger-4765 at checkout for 20% off of selected services. Visit https://zap-hosting.com/badger to get started!
+[script:devcore_needs] ox
+[      script:rtx_gym] [RTX GYM SYSTEM] - Thank you for choosing us - Discord: https://discord.gg/P6KdaDpgAk Store: https://rtx.tebex.io
+[       script:rtx_dj] [RTX DJ SYSTEM] - Thank you for choosing us - Discord: https://discord.gg/P6KdaDpgAk Store: https://rtx.tebex.io
+[script:tstudio_zmapd] [ TStudio Patch Loader] 🔎 Check for Patches
+[  script:cd_easytime] [cd_easytime] - Settings Applied.
+[  script:wt_grafitti] Loaded: 0 graffitis
+[ citizen-server-impl] server thread hitch warning: timer interval of 538 milliseconds
+[      script:oxmysql] [10.11.14-MariaDB-0ubuntu0.24.04.1] Database server connection established!
+[script:rcore_radioca] ===============
+[script:rcore_radioca] [rcore_radiocar]        loading all saved radio vehicles.
+[script:rcore_radioca] ===============
+[ script:ox_inventory] [ox_inventory] [INFO] Database contains 36 items.
+[      script:oxmysql] Warning: esx_datastore executed a query with an oversized result set (1836 results)!
+[      script:oxmysql] SELECT * FROM datastore_data LEFT JOIN datastore ON datastore_data.name = datastore.name UNION SELECT * FROM datastore_data RIGHT JOIN datastore ON datastore_data.name = datastore.name
+[script:kq_propplacer] Loaded in 36 props (refreshed 36) [KuzQuality.com]
+[   script:qf_postman] [INFO] [QF_POSTMAN] SQL Table 1 of 2 has been checked/created.
+[   script:qf_postman] [INFO] [QF_POSTMAN] SQL Table 2 of 2 has been checked/created.
+[script:kq_shellbuild] Loaded in 10 shells. [Shell creator by KuzQuality.com]
+[   script:ElectronAC]  Electron Services presents...
+[   script:ElectronAC] 
+[   script:ElectronAC]  ______ _      ______ _____ _______ _____   ____  _   _            _____
+[   script:ElectronAC] |  ____| |    |  ____/ ____|__   __|  __ \ / __ \| \ | |     /\   / ____|
+[   script:ElectronAC] | |__  | |    | |__ | |       | |  | |__) | |  | |  \| |    /  \ | |
+[   script:ElectronAC] |  __| | |    |  __|| |       | |  |  _  /| |  | | . ` |   / /\ \| |
+[   script:ElectronAC] | |____| |____| |___| |____   | |  | | \ \| |__| | |\  |  / ____ \ |____
+[   script:ElectronAC] |______|______|______\_____|  |_|  |_|  \_\\____/|_| \_| /_/    \_\_____|
+[   script:ElectronAC] 
+[   script:ElectronAC]                 Welcome to Electron AC, Metrum Project RP
+[   script:ElectronAC]                  Your license is valid until: 11/08/2125
+[   script:ElectronAC]                         689530f6a8eb0ab305c02bc9
+[   script:ElectronAC]                                 v2.11.20
+[   script:ElectronAC] 
+[script:Badger_Discor] 
+[script:Badger_Discor] Badger_Discord_API (Badger_Discord_API) is up to date!
+[script:BDX-Sport-Hub] [Wax Storage] Loaded 0 wax rails from SQL
+[  script:es_extended] [INFO] ESX Legacy 1.13.4 initialized!
+[script:wais-bodycamv] You are on the last version. Script: [wais-bodycamv2]. [Boombox/Car Radio/Speaker 3D SYNC Sound Out Now! - https://youtu.be/gkkt5AUSDDU]
+[       script:ox_lib] An update is available for ox_target (current version: 1.17.2)
+[       script:ox_lib] https://github.com/overextended/ox_target/releases/tag/v1.18.1
+[       script:ox_lib] An update is available for ox_doorlock (current version: 1.15.0)
+[       script:ox_lib] https://github.com/overextended/ox_doorlock/releases/tag/v1.22.1
+[       script:ox_lib] An update is available for ox_lib (current version: 3.30.6)
+[       script:ox_lib] https://github.com/overextended/ox_lib/releases/tag/v3.33.1
+[ citizen-server-impl]         fff
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee
+[ citizen-server-impl] 
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://navooon-lkxyav.users.cfx.re/
+[ citizen-server-impl] -- [server notice: portal_release]
+[ citizen-server-impl] PATREON SUPPORT ENDED: As of December 1st, 2025, Patreon subscriptions are officially deprecated. For existing Patreon subscribers, please migrate to our new subscription platform in https://portal.cfx.re to avoid any service interruptions. Read more: https://aka.cfx.re/patreon-to-portal-migration/
+[  script:vms_housing] VMS Housing init completed in 267 ms
+[  script:vms_housing] Loaded 293 Properies, 671 Bills, 471 Furniture
+[       script:ox_lib] An update is available for p_bridge (current version: 1.2.6)
+[       script:ox_lib] https://github.com/PiotreeQ/p_bridge/releases/tag/v1.2.8
+[script:Badger_Discor] [Badger_Discord_API] [Badger_Discord_API] Successful connection to Guild : Metrum Project  [WL-OFF] (1324497010304356524)
+[       script:ox_lib] An update is available for ox_inventory (current version: 2.44.1)
+[       script:ox_lib] https://github.com/overextended/ox_inventory/releases/tag/v2.47.0
+[      script:kq_weed] [KQ_WEED] Loaded 0 plant states from db
+[script:kajfi_grzybki] [kajfi_grzybki] Rozsiano 200 grzybow w 5 strefach.
+[     script:lc_utils] [lc_utils] Loaded! Support discord: https://discord.gg/U5YDgbh [v1.2.5]
+[ script:qwac_protect] [qwac] Ladowanie rejestru chronionych resource-ow...
+[ script:qwac_protect] [qwac] Gotowy! Chronione resource-y: 0
+[ script:qwac_protect] [qwac] Jesli to pierwsze uruchomienie, wpisz: qwac install
+[ script:rcore_casino] 
+[ script:rcore_casino] rcore_casino
+[ script:rcore_casino] framework: ESX
+[ script:rcore_casino] version: 1.9.0
+[ script:rcore_casino] database: mysql-async
+[ script:rcore_casino] map: GTA:O Interior
+[ script:rcore_casino] society: disabled
+[ script:rcore_casino] inventory: ox_inventory
+[ script:rcore_casino] casino time: 15.05.2026, 07:50 PM
+[ script:rcore_casino] https://documentation.rcore.cz/paid-resources/rcore_casino
+[ script:rcore_casino] 
+[     script:lc_utils] [lc_utils] An update is available, download it in https://github.com/LeonardoSoares98/lc_utils/releases/latest/download/lc_utils.zip [v1.3.0]
+[ script:ox_inventory] [ox_inventory] [INFO] Inventory has loaded 842 items
+[script:lc_fishing_si] [lc_fishing_simulator] Authenticated! Support discord: https://discord.gg/U5YDgbh [v1.1.7]
+[  script:vms_housing] [Compatibility] No compatible weather found!
+[  script:vms_housing] [Compatibility] Found Compatible Clothing: qb-clothing
+[  script:vms_housing] [Compatibility] Found Compatible Garage: jg-advancedgarages
+[  script:vms_housing] [Compatibility] Found Compatible Inventory: ox_inventory
+[  script:vms_housing] [Compatibility] Found Compatible Boss Menu: esx_society
+[  script:vms_housing] [Compatibility] Found Compatible Banking: Renewed-Banking
+[  script:vms_housing] [Compatibility] Found Compatible Phone: lb-phone
+[  script:vms_housing] [Compatibility] Found Compatible Target: ox_target
+[  script:vms_housing] [Compatibility] If you see incorrect compatibility with your resources, adjust manually in config.integrations.lua.
+[      script:kq_weed] [KQ_WEED] Loaded 8 placed pots from db
+[script:ZSX_Multichar] 
+[script:ZSX_Multichar] 
+[script:ZSX_Multichar] 
+[script:ZSX_Multichar] 
+[script:ZSX_Multichar] 
+[script:ZSX_Multichar] 
+[script:ZSX_Multichar] ===========================[MULTICHARACTER INTEGRATION CHECK]===============================
+[script:ZSX_Multichar] [/] Warmin up integration
+[      script:kq_weed] [KQ_WEED] Loaded 0 placed tables from db
+[script:ZSX_Multichar] [STATUS OK] Integration prepared!
+[script:ZSX_Multichar] 
+[script:ZSX_Multichar] [/] Gathering debug data
+[script:ZSX_Multichar]   -  Framework Detected                      [STATUS OK]
+[script:ZSX_Multichar]     [-] Selected: [ESX]
+[      script:kq_weed] [KQ_WEED] Loaded 0 placed presses from db
+[script:ZSX_Multichar]   -  Appearance Integrated                   [STATUS OK]
+[script:ZSX_Multichar]     [-] Selected: [rcore_clothing]
+[    script:p_banking] [Version Check] Checking for updates...
+[    script:p_banking] [Version Check] Current version: 1.1.1
+[script:bablo-animati] [CHECKING UPDATES] bablo-animations
+[  script:p_policejob] [Version Check] Checking for updates...
+[  script:p_policejob] [Version Check] Current version: 2.7.6
+[     script:p_dojmdt] [Version Check] Checking for updates...
+[     script:p_dojmdt] [Version Check] Current version: 1.1.2
+[script:bablo-animati] 
+[script:bablo-animati] [UPDATE AVAILABLE] bablo-animations
+[script:bablo-animati] --------------------------------------------------
+[script:bablo-animati] Current Version: 3.2.6
+[script:bablo-animati] New Version:     3.2.7
+[script:bablo-animati] 
+[script:bablo-animati] Patch Notes:
+[script:bablo-animati]   • Added Copy Animation feature with target system support (ox, qb, vivum).
+[script:bablo-animati]   • Optimized Big Menu rendering for better performance on lower-end hardware.
+[script:bablo-animati]   • Fixed reload-skipping exploit in the handsup module.
+[script:bablo-animati]   • Resolved animation timeout bug and cache leak regarding favorite
+[script:bablo-animati]     animations.
+[script:bablo-animati]   • Removed Crouch module due to first-person clipset incompatibility.
+[script:bablo-animati] 
+[script:bablo-animati] Download: portal.cfx.re/assets/granted-assets
+[script:bablo-animati] --------------------------------------------------
+[script:bablo-animati] 
+[ script:lunar_bridge] [INFO] lunar_heistcontracts is up-to-date.
+[ script:lunar_bridge] [INFO] lunar_drugs is up-to-date.
+[script:Wolf-Block-Ba] [Wolf-Store]: Connecting to Wolf-Block-Backdoor server
+[ script:lunar_bridge] [INFO] lunar_bridge is up-to-date.
+[  script:p_policejob] [Version Check] ✅ You are running the latest version!
+[    script:p_banking] [Version Check] ✅ You are running the latest version!
+[script:ZSX_Multichar]   -  Other Multicharacters not detected      [STATUS OK]
+[     script:p_dojmdt] [Version Check] ✅ You are running the latest version!
+[script:ZSX_Multichar]   -  Config.Multichar properly set           [STATUS OK]
+[script:Wolf-Block-Ba] [Wolf-Store]: Successfully authenticated to Wolf-Block-Backdoor servers
+[script:ZSX_Multichar]   -  Identifier prefix correct               [STATUS OK]
+[script:Wolf-Block-Ba] [Wolf-Block-Backdoor]: Data Successfully loaded
+[script:Wolf-Block-Ba] [Wolf-Block-Backdoor]: Starting deep security scan...
+[script:Wolf-Block-Ba] [Wolf-Block-Backdoor]: [PHASE 1] Scan completed. 0 resources cleaned.
+[script:Wolf-Block-Ba] [Wolf-Block-Backdoor]: [PHASE 3] Cleaning system resources...
+[script:Wolf-Block-Ba] [Wolf-Block-Backdoor]: [COMPLETE] Security cleanup finished!
+[ citizen-server-impl] server thread hitch warning: timer interval of 5888 milliseconds
+[script:ZSX_Multichar] 
+[script:ZSX_Multichar] 
+[script:ZSX_Multichar] [ERROR_DATA] Errors found [0]
+[script:ZSX_Multichar] 
+[script:ZSX_Multichar] [-] No known errors has been found. If you encounter any issues visit https://discord.gg/zsx
+[script:ZSX_Multichar]     for more information
+[script:ZSX_Multichar] ============================================================================================
+[script:ZSX_Multichar] 
+[script:ZSX_Multichar] 
+[script:ZSX_Multichar] 
+[script:ZSX_Multichar] 
+[script:ZSX_Multichar] 
+[script:ZSX_Multichar] 
+[script:Wolf-Block-Ba] 
+[script:Wolf-Block-Ba] 
+[script:Wolf-Block-Ba]             ██╗    ██╗ ██████╗ ██╗     ███████╗
+[script:Wolf-Block-Ba]             ██║    ██║██╔═══██╗██║     ██╔════╝
+[script:Wolf-Block-Ba]             ██║ █╗ ██║██║   ██║██║     █████╗
+[script:Wolf-Block-Ba]             ██║███╗██║██║   ██║██║     ██╔══╝
+[script:Wolf-Block-Ba]             ╚███╔███╔╝╚██████╔╝███████╗██║
+[script:Wolf-Block-Ba]              ╚══╝╚══╝  ╚═════╝ ╚══════╝╚═╝
+[script:Wolf-Block-Ba] 
+[script:Wolf-Block-Ba]         ██████╗ ██╗      ██████╗  ██████╗██╗  ██╗
+[script:Wolf-Block-Ba]         ██╔══██╗██║     ██╔═══██╗██╔════╝██║ ██╔╝
+[script:Wolf-Block-Ba]         ██████╔╝██║     ██║   ██║██║     █████╔╝
+[script:Wolf-Block-Ba]         ██╔══██╗██║     ██║   ██║██║     ██╔═██╗
+[script:Wolf-Block-Ba]         ██████╔╝███████╗╚██████╔╝╚██████╗██║  ██╗
+[script:Wolf-Block-Ba]         ╚═════╝ ╚══════╝ ╚═════╝  ╚═════╝╚═╝  ╚═╝
+[script:Wolf-Block-Ba] 
+[script:Wolf-Block-Ba] ██████╗  █████╗  ██████╗██╗  ██╗██████╗  ██████╗  ██████╗ ██████╗
+[script:Wolf-Block-Ba] ██╔══██╗██╔══██╗██╔════╝██║ ██╔╝██╔══██╗██╔═══██╗██╔═══██╗██╔══██╗
+[script:Wolf-Block-Ba] ██████╔╝███████║██║     █████╔╝ ██║  ██║██║   ██║██║   ██║██████╔╝
+[script:Wolf-Block-Ba] ██╔══██╗██╔══██║██║     ██╔═██╗ ██║  ██║██║   ██║██║   ██║██╔══██╗
+[script:Wolf-Block-Ba] ██████╔╝██║  ██║╚██████╗██║  ██╗██████╔╝╚██████╔╝╚██████╔╝██║  ██║
+[script:Wolf-Block-Ba] ╚═════╝ ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═════╝  ╚═════╝  ╚═════╝ ╚═╝  ╚═╝
+[script:Wolf-Block-Ba] 
+[script:Wolf-Block-Ba] 
+[script:Wolf-Block-Ba] 
+[script:Wolf-Block-Ba]                  [License] Your license does not expire (Lifetime License)
+[script:Wolf-Block-Ba] [Wolf-Block-Backdoor]: All services have been launched successfully, protection is ready
+[script:Wolf-Block-Ba] --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[script:Wolf-Block-Ba] [Wolf-Block-Backdoor]: All customers who have purchased Wolf-Block-Backdoor can now benefit from a free trial version of Wolf-Shield (Anti-Cheat).
+[script:Wolf-Block-Ba] [Wolf-Block-Backdoor]: To take advantage of this offer, simply open a support ticket
+[script:Wolf-Block-Ba] --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[script:Wolf-Block-Ba] [Wolf-Block-Backdoor]: Data loaded successfully from URL
+[  script:jo_towtruck] [Wolf-Block-Backdoor]: UNAUTHORIZED URL BLOCKED : https://jumpon-studios.com/api/checkScriptVersion?package=6959481
+[  script:vms_housing] [Wolf-Block-Backdoor]: Authorized URL : https://raw.githubusercontent.com/vames-dev/VMS_AssetsVersions/master/vms_housing.txt
+[  script:cd_easytime] [Wolf-Block-Backdoor]: Authorized URL : https://raw.githubusercontent.com/RampBST/Codesign_Versions_V2/master/cd_easytime.txt
+[script:wasabi_boombo] [Wolf-Block-Backdoor]: Authorized URL : https://api.github.com/repos/wasabirobby/wasabi_boombox/releases/latest
+[script:BDX-Sport-Hub] [Wolf-Block-Backdoor]: Authorized URL : https://raw.githubusercontent.com/Bodh1x/Sport-Hub/refs/heads/main/version.json
+[script:BDX-Basketbal] [Wolf-Block-Backdoor]: Authorized URL : https://raw.githubusercontent.com/Bodh1x/Best-Basktball/refs/heads/main/version.json
+[  script:BDX-Rollers] [Wolf-Block-Backdoor]: Authorized URL : https://github.com/Bodh1x/Rollers/raw/refs/heads/main/version.json
+[    script:BDX-Skate] [Wolf-Block-Backdoor]: Authorized URL : https://raw.githubusercontent.com/Bodh1x/Skate-Career/main/version.json
+[script:BDX-Basketbal] BodhixBall: You are using the latest version!
+[  script:vms_housing] -------------------------------------
+[  script:vms_housing] [vms_housing] - New update available now!
+[  script:vms_housing] Current Version: 1.3.0.
+[  script:vms_housing] New Version: 1.4.3.
+[  script:vms_housing] News: Improvements and bug fix..
+[  script:vms_housing] 
+[  script:vms_housing] Download it now on your keymaster.fivem.net.
+[  script:vms_housing] -------------------------------------
+[    script:BDX-Skate] BDX-Skate: You are using the latest version!
+[  script:BDX-Rollers] BodhixBMX: You are using the latest version!
